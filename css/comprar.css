@@ -1,0 +1,63 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fb5607;
+  }
+
+  .firstSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstSection h1 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #8338ec;
+  }
+
+  .firstSection .firstDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .firstDiv figure img{
+    width: 200px;
+  }
+
+  .firstDiv  figcaption{
+    width: 30%;
+    margin-left: 5px;
+    text-align: justify;
+    margin-right: 5px;
+  }
+
+  .firstSection .secondDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .secondDiv figure img{
+    width: 200px;
+  }
+
+  .secondDiv  figcaption{
+    width: 30%;
+    margin-left: 5px;
+    text-align: justify;
+    margin-right: 5px;
+  }
+
+  .firstDiv, 
+  .secondDiv{
+    background-color: #ffbe0b;
+    width: 80%;
+  }
